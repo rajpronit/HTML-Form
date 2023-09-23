@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+<body>
+  
+    <h2>Personal Details</h2>
+    <hr>
+    <div>
+        <img src="https://wallpapers.com/images/featured-full/intro-background-fm3ubbji0ojh49fh.jpg" height="250" width="400">
+    </div>
+    </p>
+    
+    <form action="">
+    <p>
+        <label for="first"><b>First name:</b></label>
+        <input type="text" name="first" id="first" required>
+    </p>
+    <p>
+        <label for="last"><b>Last name:</b></label>
+        <input type="text" name="last" id="last" required>
+    </p>    
+    <p>
+        <p><b>Gender:</b></p>
+         <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="Male"><b>Male</b></label>
+            <input type="radio" name="gender" id="Female" value="female">
+            <label for="Female"><b>Female</b></label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other"><b>Others</b></label>
+        </div>
+    </p>
+    <p>
+        <label for="Email"><b>Email: </b></label>
+        <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+        <label for="dob"><b>Date of birth: </b></label>
+        <input type="date" name="dob" id="dob" required>
+    </p>
+    <p>
+        <label for="address"><b>Address: </b></label>
+        <br>
+        <!-- <input type="text area" name="address" id="address" required> -->
+        <textarea name="address" id="address" cols="20" rows="5">
+        </textarea>
+    </p>
+    <p>
+        <label for="meal"><b>Meal Type: </b></label>
+        <select name="khana" id="meal">
+            <option value="">Enter your meal preference</option>
+            <option value="Veg">Vegetarian</option>
+            <option value="Non Veg">Non Vegetarian</option>
+        </select>
+    </p>
+    <p>
+        <label for="ack"><b>I agree to my confidentials given in this form </b></label>
+        <input type="checkbox" name="ack" id="ack">
+    </p>
+    <p>
+        <button type="reset"><b>Reset</b></button>
+        <button type="Submit"><b>Submit</b></button>
+    </p>
+    </form>
+</body>
+</html>
